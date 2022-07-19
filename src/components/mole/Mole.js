@@ -7,10 +7,7 @@ function Mole(props) {
   // console.log(key)
   return (
     <div className="den">
-      {
-        dens &&
-        <img src={MoleIcon} className="Mole" alt="Mole" onClick={whack}/>
-      }
+      { dens && <img src={MoleIcon} className="Mole" alt="Mole" onClick={whack}/> }
     </div>
   )
 }
